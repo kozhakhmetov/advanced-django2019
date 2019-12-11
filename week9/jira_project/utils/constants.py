@@ -1,0 +1,13 @@
+TASK_TODO = 1
+TASK_IN_PROGRESS = 2
+TASK_DONE = 3
+TASK_NEW = 0
+TASK_STATUSES = (
+    (TASK_TODO, 'TODO'),
+    (TASK_IN_PROGRESS, 'IN_PROGRESS'),
+    (TASK_DONE, 'DONE'),
+    (TASK_NEW, 'NEW')
+)
+
+
+TASK_ALLOWED_EXISTS = ['.jpg', '.png', '.txt']
